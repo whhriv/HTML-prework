@@ -1,0 +1,94 @@
+//normalization
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(211, 205, 205);
+}
+header {
+    background-color: rgb(235, 171, 171);
+    border-bottom: 3px solid lime;
+    border-top: 3px solid lime;
+    margin-bottom: 10px;
+    width: 110%;
+    display: block;
+    
+}
+footer {
+    background-color: white;
+    border-top: 3px solid lime;
+    text-align: center;
+    padding: 5px;
+
+}
+article {
+    
+    background-color: rgb(176, 251, 25);
+    margin: 3px auto 20px;
+    border: 2px solid dodgerblue;
+    padding: 80px;
+    width: 70%;
+    border-radius: 10px;
+}
+nav {
+    list-style-type: none;
+    list-style-position:inherit;
+}
+// This isn't working //
+.nav-bar, .nav-link, .title-id {
+    display: inline;
+}
+
+#brand-title {
+    margin-right: 80%;
+}
+#title-id {
+    margin-right: 20px;
+}
+a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+main {
+    text-align: right;
+}
+form {
+    color: red;
+    border: 2px solid red;
+    width: 20%;
+    margin: 0 auto 20px;
+    border-radius: 0px;
+    padding: 20px;
+}
+.form-label {
+    
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+input, textarea {
+    padding: 30px;
+    border-radius: 5px;
+}
+#pictures {
+    border-radius: 20%;
+    border: 2px solid black;
+}
+#profile-pictures {
+    align-items: normal left;
+    border-radius: 90%;
+    border: 2px solid black;
+}
+.body-format {
+    
+    padding: 0px;
+    margin-left: 90%;
+    margin: 0 auto 20px;
+
+    
+}
